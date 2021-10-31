@@ -23,7 +23,7 @@ y = img_array.shape[1]
 y2 =  y//(x//defaultx)
 arr = np.array(limg.resize((defaultx, y2)))
 ```
-###縮小後
+### 縮小後
 ![image](https://user-images.githubusercontent.com/93465890/139573451-b02532e8-9d1b-4e77-ad7c-6430351e5fb3.png)
 
 ##依據陣列內的值，選擇三種圖案其中一個
