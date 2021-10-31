@@ -1,6 +1,6 @@
 # 利用 python 將圖片轉為字串
 
-##圖片轉為黑白
+## 圖片轉為黑白
 ```
 import numpy as np
 from PIL import Image
@@ -13,7 +13,7 @@ limg = Image.open(path).convert('L')
 ![image](https://user-images.githubusercontent.com/93465890/139573427-21b4ed87-efbe-42f2-8f91-22e7c898d29b.png)
 
 
-##圖片轉陣列，並resize
+## 圖片轉陣列，並resize
 - 預設寬度為100，長度等比例縮小
 ```
 defaultx = 100
@@ -26,7 +26,7 @@ arr = np.array(limg.resize((defaultx, y2)))
 ### 縮小後
 ![image](https://user-images.githubusercontent.com/93465890/139573451-b02532e8-9d1b-4e77-ad7c-6430351e5fb3.png)
 
-##依據陣列內的值，選擇三種圖案其中一個
+## 依據陣列內的值，選擇三種圖案其中一個
 ```
 a = '●'
 b = '◎'
